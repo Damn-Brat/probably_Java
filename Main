@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter a character");
+String sus = sc.nextLine();
+    if(sus == "a" || sus == "e" || sus == "i" || sus == "o" || sus == "u" || sus == "A" || sus == "E" || sus == "I" || sus == "O" || sus == "U")
+      System.out.println(sus + " is a vowel");
+    else
+System.out.println(sus + " is not a vowel");
+    
+  }
+}
